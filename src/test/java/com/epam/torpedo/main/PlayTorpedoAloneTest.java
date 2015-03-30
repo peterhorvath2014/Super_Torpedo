@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PlayTorpedoAloneTest {
 	
-	@Test
+	//@Test
 	public void testPlayWhenAllParameterIsCorrect() throws InterruptedException {
 		PlayTorpedoAlone underTest = new PlayTorpedoAlone();
 		int battleFieldWidth = 100;

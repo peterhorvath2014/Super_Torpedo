@@ -43,7 +43,7 @@ public class GameStateTest {
 		// THEN throws Exception
 	}
 	
-	@Test
+	//@Test
 	public void testsetGuessedBattleFieldCellWhenHitThenCallsGuessedSetCell() {
 		// GIVEN in setup
 		Coordinate coordinate = new Coordinate(0,0);
